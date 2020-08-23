@@ -1,5 +1,7 @@
 package br.com.artesoftware.cursocomplexidade
 
+import java.io.File
+
 class CognitivaRegra1 {
 
     fun  metodoComIf( s: String?) {
@@ -10,6 +12,11 @@ class CognitivaRegra1 {
 
     fun  metodoSemIf( s: String?) {
         println("Tamanho de S=" + s?.length)
+    }
+
+    fun lerArquivo(filename: String){
+        val file = File(filename);
+
     }
 
 }

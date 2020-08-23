@@ -14,7 +14,7 @@ public class Sorveteria3 {
 					preco = preco + 1;
 				}
 			} else {
-				preco = preco + 1;
+				preco = preco + 2;
 			}
 		} else {
 			preco = 15 + 1 + 1; // copo + 1 cob
