@@ -14,9 +14,4 @@ class CognitivaRegra1 {
         println("Tamanho de S=" + s?.length)
     }
 
-    fun lerArquivo(filename: String){
-        val file = File(filename);
-
-    }
-
 }
